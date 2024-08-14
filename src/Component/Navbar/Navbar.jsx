@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="navbar bg-[#245D51] text-[#FFFFFF]">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden" >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-[#245D51]  z-[1] mt-3 w-52 p-2 "
             >
               <li>
                 <a>Home</a>
@@ -40,6 +40,10 @@ const Navbar = () => {
               </li>
               <li>
                 <a>Testimoni</a>
+              </li>
+              <li className="block md:hidden lg:hidden">
+              <a className="text-start text-white bg-[#245D51] border-none hover:bg-[#245D51]" href="#">Login</a>
+              <a className="btn w-[140px] h-[30px] bg-[#CB8461] rounded border-none text-white">Register</a>
               </li>
             </ul>
           </div>
@@ -66,9 +70,9 @@ const Navbar = () => {
               </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end hidden md:flex space-x-4">
         <a className="btn text-white bg-[#245D51] border-none hover:bg-[#245D51]">Login</a>
-          <a className="btn">Register</a>
+          <a className="btn w-[140px] h-[30px] bg-[#CB8461] rounded border-none text-white">Register</a>
         </div>
       </div>
     </div>
