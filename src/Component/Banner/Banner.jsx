@@ -7,7 +7,7 @@ import { FaDiscord } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className='h-[700px]'>
+    <div className=''>
       <div className='md:flex md:justify-between bg-[#245D51] md:px-[50px] px-3'>
         <div className='md:mt-[70px] text-white w-[630px]'>
           <h1 className='font-bold md:text-6xl text-2xl'>There is <span class="relative inline-block pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[6px] after:bg-[#CB8461] after:-translate-y-1/2 after:clip-path-upward-wave">always</span>
