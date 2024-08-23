@@ -32,9 +32,10 @@ const TestimonialsSection = () => {
         <p className="mt-4 text-gray-600">
           This is an honest review from members who have joined us
         </p>
-        <div className="flex justify-center mt-8 space-x-4">
+        <div className="md:flex md:justify-center mt-8 space-x-4">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard
+            
               key={index}
               image={testimonial.image}
               name={testimonial.name}

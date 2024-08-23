@@ -33,18 +33,18 @@ const PopularCourses = () => {
       <div className="my-5">
         <Carousel responsive={responsive}>
           <div>
-            <img src={img1} alt="" />
+            <img src={img1} alt="" className="w-[400px] h-[500px]"/>
           </div>
           <div>
-            <img src={img2} alt="" />
-          </div>
-          <div>
-            {" "}
-            <img src={img3} alt="" />
+            <img src={img2} alt="" className="w-[400px] h-[500px]"/>
           </div>
           <div>
             {" "}
-            <img src={img1} alt="" />
+            <img src={img3} alt="" className="w-[400px] h-[500px]"/>
+          </div>
+          <div>
+            {" "}
+            <img src={img1} alt="" className="w-[400px] h-[500px]"/>
           </div>
         </Carousel>
       </div>

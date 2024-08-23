@@ -7,12 +7,12 @@ const Subscribe = () => {
         <span className="text-[#CB8461]">Subscribe</span> with us now
       </h1>
       <p className="text-[#808080] md:w-[545px] text-center mx-auto">
-        by subscribing now you will be able to access the material easily <br />{" "}
+        by subscribing now you will be able to access the material easily {" "}
         and cheaply, so you will be very efficient and benefit
       </p>
       {/* subscription card */}
       <div className="md:flex md:justify-between my-10">
-          <div className="max-w-sm mx-auto p-6 bg-white text-black rounded-lg shadow-lg">
+          <div className="max-w-sm mx-auto p-6 md:mb-0 mb-5 bg-white text-black rounded-lg shadow-lg">
             <div className="flex">
               <h2 className="text-4xl font-bold">$50</h2>
               <p className="text-gray-400 mt-5">/ 12month</p>
@@ -49,7 +49,7 @@ const Subscribe = () => {
             </button>
           </div>
           {/* second card */}
-          <div className="max-w-sm mx-auto p-6 bg-[#245D51] text-white rounded-lg shadow-lg relative">
+          <div className="max-w-sm mx-auto p-6 md:mb-0 mb-5 bg-[#245D51] text-white rounded-lg shadow-lg relative">
       <span className="absolute top-3 right-3 bg-[#CB8461] text-white px-3 py-1 rounded-full text-xs font-semibold">
         MOST POPULAR
       </span>

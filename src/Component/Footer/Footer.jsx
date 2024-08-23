@@ -11,11 +11,11 @@ const Footer = () => {
         By subscribing with your mail, you will accept our privacy policy
       </p>
       <div className="flex gap-2" >
-        <input
-          type="text"
-          className="p-2 outline-none border-none"
-          placeholder="Enter your email"
-        />
+      <input
+            type="email"
+            placeholder="Enter your email"
+            className="px-4 py-2 w-64 rounded bg-[#396D62] text-white placeholder-gray-300"
+          />
         <button className="bg-[#CC8663] px-3 py-3 text-white font-semibold">
           Subscribe Course
         </button>

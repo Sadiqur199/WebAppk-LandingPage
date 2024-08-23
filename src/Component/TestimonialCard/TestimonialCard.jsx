@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialCard = ({ image, name, review }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="bg-white p-6 md:mb-0 mb-5 rounded-lg shadow-lg text-center">
       <img
         src={image}
         alt={name}
