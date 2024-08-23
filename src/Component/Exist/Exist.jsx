@@ -41,8 +41,8 @@ const Exist = () => {
 
         <div className="md:flex md:flex-wrap md:w-1/2 mt-2 md:mt-0">
           <div className="md:flex gap-4">
-            <div>
-              <img src={img1} alt="" className='md:mt-0 mt-2 h-[50px] w-[50px]'/>
+            <div className='md:mt-0 mt-8' >
+              <img src={img1} alt="" className='md:mt-0 mt-2 h-[30px] w-[30px]'/>
               <h3 className="text-3xl font-bold text-[#245D51]">
                 Material Limitations
               </h3>
@@ -51,8 +51,8 @@ const Exist = () => {
                 industry.
               </p>
             </div>
-            <div>
-            <img src={img2} alt="" className='md:mt-0 mt-2 h-[50px] w-[50px]'/>
+            <div className='md:mt-0 mt-8'>
+            <img src={img2} alt="" className='md:mt-0 mt-2 h-[30px] w-[30px]'/>
               <h3 className="text-3xl font-bold text-[#245D51]">
                 Unprofessional Mentor
               </h3>
@@ -61,10 +61,10 @@ const Exist = () => {
                 industry.
               </p>
             </div>
-          </div>
+          </div >
           <div className="md:flex gap-4">
-            <div>
-            <img src={img3} alt="" className='md:mt-0 mt-2 h-[50px] w-[50px]'/>
+            <div  className='mt-8' >
+            <img src={img3} alt="" className='md:mt-0 mt-2 h-[30px] w-[30px]'/>
               <h3 className="text-3xl font-bold text-[#245D51]">
                 Video Quality
               </h3>
@@ -73,8 +73,8 @@ const Exist = () => {
                 industry.
               </p>
             </div>
-            <div>
-            <img src={img4} alt="" className='md:mt-0 mt-2 h-[50px] w-[50px]' />
+            <div className='mt-8'>
+            <img src={img4} alt="" className='md:mt-0 mt-2 h-[30px] w-[30px]' />
               <h3 className="text-3xl font-bold text-[#245D51]">High Price</h3>
               <p className="text-gray-400 w-2/4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting

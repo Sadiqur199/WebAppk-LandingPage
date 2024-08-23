@@ -4,7 +4,7 @@ import boy from "../../../src/assets/boy.png";
 const SubcribeCourse = () => {
   return (
     <div>
-      <div className="bg-[#F2E7DB] mx-5 md:mx-20 md:py-5    relative  p-8  rounded-md">
+      <div className="bg-[#F2E7DB] mx-5 md:mx-20 md:py-5 my-[100px]   relative  p-8  rounded-md">
         <div className="md:flex  md:justify-around">
           <div className="">
             <h4 className="text-[36px] pb-6 font-semibold">
