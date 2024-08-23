@@ -1,5 +1,5 @@
 import React from 'react';
-import boy from "../../assets/boy.png";
+import boy from "../../../src/assets/boy.png";
 
 const SubcribeCourse = () => {
   return (

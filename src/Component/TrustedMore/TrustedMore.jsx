@@ -1,9 +1,9 @@
 import React from 'react';
-import Img1 from '../../assets/image 11.png'
-import Img2 from '../../assets/image 12.png'
-import Img3 from '../../assets/image 13.png'
-import Img4 from '../../assets/image 14.png'
-import Img5 from '../../assets/image 15.png'
+import Img1 from '../../../src/assets/image 11.png'
+import Img2 from '../../../src/assets/image 12.png'
+import Img3 from '../../../src/assets/image 13.png'
+import Img4 from '../../../src/assets/image 14.png'
+import Img5 from '../../../src/assets/image 15.png'
 const TrustedMore = () => {
   return (
     <div className='md:w-[1100px] mx-auto'>

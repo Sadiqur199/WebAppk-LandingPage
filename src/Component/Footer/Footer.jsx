@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from "../../assets/Logo.png";
-import backgroundImage from '../../assets/Group 48095497.png';
+import logo from "../../../src/assets/Logo.png";
 const Footer = () => {
   return (
 <div className="bg-[#245D51]">

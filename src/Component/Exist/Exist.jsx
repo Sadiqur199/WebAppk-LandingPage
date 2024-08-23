@@ -1,9 +1,9 @@
 import React from 'react';
-import ceo from "../../assets/ceo.jpeg";
-import img1 from "../../assets/Group 542.png";
-import img2 from "../../assets/Group 554.png";
-import img3 from "../../assets/Group 555.png";
-import img4 from "../../assets/Group 556.png";
+import ceo from "../../../src/assets/ceo.jpeg";
+import img1 from "../../../src/assets/Group 542.png";
+import img2 from "../../../src/assets/Group 554.png";
+import img3 from "../../../src/assets/Group 555.png";
+import img4 from "../../../src/assets/Group 556.png";
 
 const Exist = () => {
   return (

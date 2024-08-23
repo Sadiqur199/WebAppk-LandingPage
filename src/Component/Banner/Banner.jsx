@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerImg from '../../assets/image (1).png'
+import bannerImg from '../../../src/assets/image (1).png'
 import { MdArrowOutward } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
