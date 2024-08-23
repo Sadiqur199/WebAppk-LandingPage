@@ -16,7 +16,7 @@ const Banner = () => {
           <div className='md:flex'>
           <button className="btn btn-sm bg-[#CB8461] hover:bg-[#CB8461] text-white border-none">Start Journey<span><MdArrowOutward />
           </span></button>
-         <div className='mt-2 flex ml-3'>
+         <div className='mt-2 flex ml-3 md:pb-0 pb-5'>
          <FaInstagram className='mr-2'/>
           <FaTwitterSquare className='mr-2'/>
           <FaDiscord />
@@ -24,7 +24,7 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <img src={bannerImg} className='w-[500px] h-[400px] mt-5' alt="" />
+          <img src={bannerImg} className='w-[500px] h-[400px] mt-5 hidden md:block' alt="" />
         </div>
       </div>
     </div>

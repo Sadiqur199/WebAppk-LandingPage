@@ -7,6 +7,9 @@ import Exist from '../Component/Exist/Exist';
 import Footer from '../Component/Footer/Footer';
 import PopularCourses from '../PopularCourses/PopularCourses';
 import SkillShoot from '../Component/SkillShoot/SkillShoot';
+import ImproveSkill from '../Component/ImproveSkill/ImproveSkill';
+import Subscribe from '../Component/Subscribe/Subscribe';
+import TestimonialsSection from '../Component/TestimonialsSection/TestimonialsSection';
 
 const Main = () => {
   return (
@@ -18,6 +21,9 @@ const Main = () => {
       <Exist></Exist>
       <PopularCourses></PopularCourses>
       <SkillShoot></SkillShoot>
+      <ImproveSkill></ImproveSkill>
+      <Subscribe></Subscribe>
+      <TestimonialsSection></TestimonialsSection>
       <Footer></Footer>
     </div>
   );

@@ -8,7 +8,7 @@ import img4 from '../../../src/assets/Group 48095524man3.png';
 const SkillShoot = () => {
   return (
     <div>
-      <div className='md:flex md:mx-[170px] w-[1142px] my-10'>
+      <div className='md:flex md:mx-[170px] w-[1280px] my-10'>
         <div>
           <img src={skillshoot} alt="" className='md:w-[570px] md:h-[470px] hidden md:block' />
         </div>

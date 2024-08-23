@@ -19,7 +19,7 @@ const Exist = () => {
             improve their skills
           </p>
           <div className="flex gap-4">
-            <img src={ceo} alt="" className="w-[50px] h-[50px] rounded-full" />
+            <img src={ceo} alt="" className="w-[60px] h-[60px] rounded-full" />
             <div>
               <h3 className="text-black font-semibold">Jerony Pulquosta</h3>
               <p className="text-gray-400">CEO Skill Shoot</p>
